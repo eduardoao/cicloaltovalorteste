@@ -1,0 +1,14 @@
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.deps.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.runtimeconfig.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.runtimeconfig.dev.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.csprojResolveAssemblyReference.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.AssemblyInfoInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.AssemblyInfo.cs
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.pdb

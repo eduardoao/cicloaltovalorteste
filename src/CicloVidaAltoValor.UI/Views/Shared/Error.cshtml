@@ -1,0 +1,87 @@
+﻿@using CicloVidaAltoValor.Application.Contracts.Error
+@model CicloVidaAltoValor.Application.Contracts.Error.ErrorViewModel
+@{
+    ViewData["Title"] = "Erro";
+    ViewBag.BodyClass = @"regulamento";
+}
+
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <section id="feature" class="ms-animation" data-ms-animation="fadeIn" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+        <div class="padrao">
+            <div class="mob_adapt">
+                <section class="col-xs-8 col-sm-5 col-md-5 col-lg-5 ">
+
+
+                    <div class="intro ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                        <h1 class="text-danger">Desculpe :(</h1>
+                        <h2 class="text-danger">Um erro ocorreu durante o processamento do seu pedido.</h2>
+
+                        @if (Model.ShowRequestId)
+                        {
+                            <p>
+                                <strong>Request ID:</strong> <code>@Model.RequestId</code>
+                            </p>
+                        }
+
+                    </div>
+
+                </section>
+            </div>
+
+
+
+            <section class="hidden-xs hidden-sm hidden-md col-lg-7 sup">
+                <figure>
+                    <img src="~/images-@(ViewBag.Profile)/genio-md.png" class="img-responsive genio-sup ms-animation" data-ms-animation="zoomIn" data-ms-animation-delay="1s" data-ms-animation-duration="3s" alt="Desafios do Gênio">
+                </figure>
+            </section>
+
+        </div>
+    </section>
+}
+else
+{
+
+    <div id="content_site">
+        <header>
+            <section id="promotion">
+                <div class="padrao">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+
+                     
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <br /><br /><br />
+                        <div class="campos ms-animation" data-ms-animation="flipInUp" data-ms-animation-delay="1.5s" data-ms-animation-duration="1.5s">
+                            <h1 class="text-danger">Desculpe :(</h1>
+                            <h2 class="text-danger">Um erro ocorreu durante o processamento do seu pedido.</h2>
+
+                            @if (Model.ShowRequestId)
+                            {
+                                <p>
+                                    <strong>Request ID:</strong> <code>@Model.RequestId</code>
+                                </p>
+                            }
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </header>
+
+
+        <section id="content">
+            <div class="padrao">
+
+             
+
+            </div>
+        </section>
+    </div>
+
+}

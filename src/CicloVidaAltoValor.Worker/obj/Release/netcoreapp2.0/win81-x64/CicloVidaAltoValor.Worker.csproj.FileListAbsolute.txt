@@ -1,0 +1,16 @@
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\hostpolicy.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\hostfxr.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.exe
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\appsettings.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.deps.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.runtimeconfig.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.runtimeconfig.dev.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Application.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\bin\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Application.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.AssemblyInfoInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.AssemblyInfo.cs
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Release\netcoreapp2.0\win81-x64\CicloVidaAltoValor.Worker.pdb

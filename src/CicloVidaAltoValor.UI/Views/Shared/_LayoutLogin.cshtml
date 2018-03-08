@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <title>@ViewBag.Title - Clico de Vida Ourocard - Páscoa</title>
+
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/css/site.min.css">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="~/images/icones/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/images/icones/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/images/icones/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/images/icones/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/images/icones/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/images/icones/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/images/icones/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/images/icones/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/images/icones/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/images/icones/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/images/icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/images/icones/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/icones/favicon-16x16.png">
+    <link rel="manifest" href="~/images/icones/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/images/icones/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="~/lib/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="~/lib/respond/dest/respond.min.js"></script>
+    <![endif]-->
+
+
+
+    @RenderSection("styles", required: false)
+
+</head>
+<body class="">
+
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="~/lib/modernizr/modernizr.js"></script>
+    <script src="~/lib/jquery.browser/dist/jquery.browser.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="~/lib/moment/min/moment-with-locales.min.js"></script>
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

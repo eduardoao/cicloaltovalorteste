@@ -1,0 +1,92 @@
+2018-03-08T13:12:28.4299170-03:00 0HLC51TE4AQA0:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T13:12:28.5342820-03:00 0HLC51TE4AQA0:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)
+2018-03-08T13:12:58.4370072-03:00 0HLC51TE4AQA2:00000005 [WRN] [UsuarioId: 25275838816] [CPF: 25275838816] realizou alteração no cadastro. (35a66e3d)
+2018-03-08T13:32:45.3287316-03:00 0HLC51TE4AQA3:00000001 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou logout. (ac0372ef)
+2018-03-08T13:33:02.1908929-03:00 0HLC51TE4AQA5:00000003 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T13:33:02.2161666-03:00 0HLC51TE4AQA5:00000003 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)
+2018-03-08T13:47:06.4565383-03:00 0HLC52FJVDRFB:00000001 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou logout. (ac0372ef)
+2018-03-08T13:47:11.6167787-03:00 0HLC52FJVDRFA:00000002 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] realizou login com sucesso. (be3f9f5c)
+2018-03-08T13:47:11.6405747-03:00 0HLC52FJVDRFA:00000002 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] incluido no controle de acesso. (9de9770b)
+2018-03-08T13:47:12.2922061-03:00 0HLC52FJVDRFC:00000002 [ERR] Must declare the scalar variable "@zipcode". (7055228f)
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@zipcode".
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.CepTotalService.<FindByZipCodeAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\CepTotalService.cs:line 28
+ClientConnectionId:2ea2c55c-3ac4-4de1-9cdf-3667955d4daa
+Error Number:137,State:2,Class:15
+2018-03-08T14:13:58.2911469-03:00 0HLC52VRHP9CR:00000007 [ERR] Must declare the scalar variable "@zipcode". (7055228f)
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@zipcode".
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.CepTotalService.<FindByZipCodeAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\CepTotalService.cs:line 28
+ClientConnectionId:6c020e47-c5d6-434b-bdf1-a6d814c33a26
+Error Number:137,State:2,Class:15
+2018-03-08T14:14:19.2862190-03:00 0HLC52VRHP9CT:00000005 [ERR] Must declare the scalar variable "@zipcode". (7055228f)
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@zipcode".
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.CepTotalService.<FindByZipCodeAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\CepTotalService.cs:line 28
+ClientConnectionId:6c020e47-c5d6-434b-bdf1-a6d814c33a26
+Error Number:137,State:2,Class:15
+2018-03-08T14:16:20.1266898-03:00 0HLC52VRHP9D0:00000001 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] realizou logout. (1745890d)
+2018-03-08T14:16:25.0587581-03:00 0HLC52VRHP9D0:00000003 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T14:16:25.0913531-03:00 0HLC52VRHP9D0:00000003 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)
+2018-03-08T14:20:16.2445566-03:00 0HLC52VRHP9D6:0000000B [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou logout. (ac0372ef)
+2018-03-08T14:20:20.8011301-03:00 0HLC52VRHP9D4:0000000A [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T14:20:20.8103975-03:00 0HLC52VRHP9D4:0000000A [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)
+2018-03-08T14:30:09.2460304-03:00 0HLC538MOGBS4:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou logout. (ac0372ef)
+2018-03-08T14:30:13.9578622-03:00 0HLC538MOGBS0:00000004 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] realizou login com sucesso. (be3f9f5c)
+2018-03-08T14:30:13.9868681-03:00 0HLC538MOGBS0:00000004 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] incluido no controle de acesso. (9de9770b)
+2018-03-08T14:31:35.4744245-03:00 0HLC538MOGBS5:00000002 [ERR] Must declare the scalar variable "@zipcode". (7055228f)
+System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@zipcode".
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.CepTotalService.<FindByZipCodeAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\CepTotalService.cs:line 28
+ClientConnectionId:a861df00-3fc5-4862-beb5-dc1726a918d3
+Error Number:137,State:2,Class:15
+2018-03-08T14:36:35.9297777-03:00 0HLC538MOGBS7:00000001 [WRN] [UsuarioId: 13156273] [CPF: 38372666806] realizou logout. (1745890d)
+2018-03-08T14:48:40.3707771-03:00 0HLC53J5DA551:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T14:48:40.4186092-03:00 0HLC53J5DA551:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)
+2018-03-08T14:48:49.5627831-03:00 0HLC53J5DA553:00000002 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou logout. (ac0372ef)
+2018-03-08T14:49:00.4856101-03:00 0HLC53J5DA551:00000006 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] realizou login com sucesso. (9ede7975)
+2018-03-08T14:49:00.4959374-03:00 0HLC53J5DA551:00000006 [WRN] [UsuarioId: 13156296] [CPF: 25275838816] incluido no controle de acesso. (918d2ea9)

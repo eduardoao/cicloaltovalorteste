@@ -1,0 +1,28 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@User.Identity.Name<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+                <li>
+                    <a title="Sair" href="javascript:document.getElementById('logoutForm').submit()">
+                        <form asp-controller="Login" asp-action="Logout" method="post" id="logoutForm" asp-antiforgery="false">
+                            Sair
+                        </form>
+                    </a>
+
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li><a title="Entrar" asp-controller="Login" asp-action="Index">Entrar</a></li>
+    </ul>
+}

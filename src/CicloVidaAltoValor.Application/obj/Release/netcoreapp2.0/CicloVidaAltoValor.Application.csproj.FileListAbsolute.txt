@@ -1,0 +1,10 @@
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\bin\Release\netcoreapp2.0\CicloVidaAltoValor.Application.deps.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\bin\Release\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\bin\Release\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.Properties.Resources.resources
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.csproj.GenerateResource.Cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.AssemblyInfoInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.AssemblyInfo.cs
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Release\netcoreapp2.0\CicloVidaAltoValor.Application.pdb

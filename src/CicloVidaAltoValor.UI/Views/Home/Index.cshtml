@@ -1,0 +1,255 @@
+﻿@model CicloVidaAltoValor.Application.Contracts.Home.HomeViewModel
+@{
+    ViewBag.Title = "Home";
+    Layout = "_Layout";
+}
+
+@section scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+    @if (ViewBag.Mensagem != null && ViewBag.Mensagem)
+    {
+        <script>
+            $('#modal-id-sucesso').modal('show');
+        </script>
+    }
+
+    <script>
+        (function () {
+            "use strict";
+
+
+
+            $('ul>li.active>a').removeClass('menu_animate');
+
+            $("#modal-produto-confirma").on('hide.bs.modal', function () {
+                //var nome = $(this).find('button.btn-azul-simples').data('produto-modal');
+                //$('html,body').animate({
+                //    scrollTop: $("a[data-nome='" + nome + "']").offset().top - 500
+                //}, 800);
+                $(this).html("");
+            });
+
+            if ($('#sucesso').val()) {
+                $('#confirmacao').modal('show');
+            } else if ($('#catalogo').val() && $('#catalogo').val() !== "0") {
+
+                $('#inicial-' + $('#catalogo').val()).modal('show');
+            }
+
+
+            $(".btn-confirma")
+                .click(function () {
+
+
+                    var model = {
+                        produtoId: $(this).data('produto'),
+                        campanhaProdutoId: $(this).data('campanha-produto'),
+                        nome: $(this).data('nome'),
+                        produtoCampanhaId: $(this).data('produto-campanha')
+                    };
+
+                    $.ajax({
+                        url: $('#urlQuestaoConfirma').val(),
+                        contentType: 'application/json;chartset=utf-8',
+                        type: 'POST',
+                        data: JSON.stringify(model),
+                        success: function (data) {
+
+                            if (data) {
+                                $('#modal-produto-confirma').html(data);
+                                $("#modal-produto-confirma").modal('show');
+                            }
+
+                        },
+                        error: function (xhr, error, status) {
+                            if (xhr.status === 400) {
+
+                                if (xhr.responseJSON[""] && xhr.responseJSON[""].length !== 0) {
+                                    $('#erro .mensagem').html(xhr.responseJSON[""]);
+                                    $('#erro').modal('show');
+                                }
+                            } else {
+                                $('#erro .mensagem').html('Não foi possível buscar o produto.');
+                                $('#erro').modal('show');
+                            }
+                        }
+
+                    });
+
+                    return false;
+                });
+
+
+        })();
+    </script>
+}
+    <div class="container">
+
+
+        <input type="hidden" name="sucesso" id="sucesso" value="@ViewBag.Sucesso" />
+
+        <input type="hidden" value="@Url.Action("QuestaoConfirma")" id="urlQuestaoConfirma" />
+        <input type="hidden" value="@Url.Action("Index","Cep")" id="urlCep" />
+
+        <br />
+        <div class="ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+            <div class="error bold text-danger" asp-validation-summary="ModelOnly"></div>
+        </div>
+
+
+        <section id="como-funciona">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading text-uppercase">Services</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">E-Commerce</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Responsive Design</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Web Security</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="container">
+                @await Html.PartialAsync("_Produtos", @Model)
+            </div>
+        </section>
+
+        <section id="dotz">
+            <div class="container">
+                Dotz
+                <div class="padrao">
+                    <div class="col-xs-12 left-center">
+
+                        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 content ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="1s" data-ms-animation-duration="1.5s">
+
+                            <p>É uma poderosa moeda de troca. E você, que é cliente Banco do Brasil, pode aproveitar o melhor de tudo isso transferindo os pontos do seu cartão de crédito Ourocard para o Programa Dotz. Depois, é só trocar Dotz por produtos, passagens aéreas e um zilhão de coisas legais.</p>
+
+                            <p>Além disso, você também pode ganhar muitos Dotz fazendo compras em parceiros online e estabelecimentos parceiros de todo o país.</p>
+
+                            <p>É fácil e grátis!</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 cta">
+                        <a href="https://www.dotz.com.br/" class="ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="1.2s" data-ms-animation-duration="1.5s" title="Aproveite">Aproveite</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="regulamento">
+            <div class="container">
+                <div class="padrao">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                        <div class="content ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                            <div class="div_scroll">
+
+                                <h3 align="center">
+                                    Regulamento Promoção Ciclo de Vida BB Páscoa<em></em>
+                                </h3>
+                                <p align="center">
+                                    Realizadoras:
+                                </p>
+                                <p align="center">
+                                    <strong>BANCO DO BRASIL S.A.</strong>
+                                </p>
+                                <p align="center">
+                                    SAUN, Quadra 5, Lote B, Edifício BB – Asa Norte – Brasília/DF
+                                </p>
+                                <p align="center">
+                                    CNPJ/MF Nº 00.000.000/0001-91
+                                </p>
+                                <p align="center">
+                                    <strong>CBSM - COMPANHIA BRASILEIRA DE SERVIÇOS DE MARKETING</strong>
+                                </p>
+                                <p align="center">
+                                    Rua Joaquim Floriano, 533, 15º andar – Itaim Bibi – São Paulo/SP
+                                </p>
+                                <p align="center">
+                                    CNPJ/MF Nº 10.221.279/0001-97
+                                </p>
+                                <strong>
+                                    1. Período da Promoção
+                                </strong>
+
+                                <p>
+                                    7.9. A promoção independe de qualquer modalidade de sorteio, vale-prêmio,
+                                    concurso ou operação assemelhada, não estando, portanto, sujeita à
+                                    autorização prévia estabelecida no Artigo 1º, da Lei Federal 5.768/71 <strong></strong>
+                                </p>
+                                <p align="center">
+                                    São Paulo, 01 de novembro de 2017
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+                        <a href="~/files/Regulamento Seu Desejo é uma Ordem.pdf" target="_blank" class="btn-amarelo-simples ms-animation" data-ms-animation="pulse" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s" title="Faça o Download">Faça o Download</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cadastro">
+
+            @await Html.PartialAsync("_CompleteSeuCadastro", @Model.Usuario)
+        </section>
+
+
+        <!-- MODAIS -->
+        <div class="modal fade" id="modal-produto-confirma">
+
+        </div>
+
+        <!-- MODAL DE CONFIRMAÇÃO -->
+        <div class="modal fade" id="confirmacao">
+            <div class="modal-dialog">
+                <button type="button" class="btn-fechar" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h5>Parabéns</h5>
+                        <p>Você realizou seu resgate.</p>
+                    </div>
+                    <div class="modal-footer">
+
+                    </div>
+                    <p>
+                        Seu produto será entregue no endereço cadastrado neste site.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>

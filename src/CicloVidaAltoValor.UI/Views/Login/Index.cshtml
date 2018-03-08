@@ -1,0 +1,68 @@
+﻿
+@model CicloVidaAltoValor.Application.Contracts.Login.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "_LayoutLogin";
+}
+
+@section scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+    <script src="~/js/views/login/index.min.js"></script>
+
+}
+
+<section>
+    <div class="login">
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading" align="center">
+                        <h3 class="panel-title">
+                            Ciclo de Vida Alto Valor
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <form asp-action="Index" asp-controller="Login" method="POST" class="" asp-route-returnUrl="@ViewData["returnUrl"]" role="form">
+                            <fieldset>
+
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control"
+                                           asp-for="Cpf" placeholder="CPF" title="CPF" maxlength="20">
+                                    <span asp-validation-for="Cpf"
+                                          class="text-danger"></span>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <input class="form-control"
+                                           asp-for="DataNascimento" placeholder="Data de Nascimento" title="Data de Nascimento" type="text" value="" maxlength="10">
+                                    <span asp-validation-for="DataNascimento"
+                                          class="text-danger"></span>
+                                </div>
+                               
+                                <div class="">
+
+                                    <div class="col-md-offset-8 col-lg-offset-8 col-sm-offset-8">
+                                        <button type="submit" class="btn btn-default hidden-xs" title="Clique para Entrar">Entrar</button>
+                                    </div>
+
+
+                                    <div class="">
+                                        <button type="submit" class="btn btn-default btn-block visible-xs" title="Clique para Entrar">Entrar</button>
+                                    </div>
+
+                                </div>
+
+                                <br />
+
+                                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

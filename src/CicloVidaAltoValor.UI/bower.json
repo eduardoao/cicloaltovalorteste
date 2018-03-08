@@ -1,0 +1,25 @@
+{
+  "name": "ciclovidaaltovalor.ui",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "2.2.4",
+    "jquery-validation": "^1.17.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "modernizr": "2.8.3",
+    "jquery.browser": "0.0.7",
+    "jquery-mask-plugin": "1.13.4",
+    "animate.css": "3.5.2",
+    "html5shiv": "3.7.2",
+    "respond": "1.4.2",
+    "autocomplete-address": "^1.0.1",
+    "jquery-mobile": "1.4.5",
+    "waypoints": "2.0.5",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.19.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
+  },
+  "resolutions": {
+    "jquery": "~2.2.4"
+  }
+}

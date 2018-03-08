@@ -1,0 +1,500 @@
+2018-03-07T14:24:31.2282878-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:24:31.2475464-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:24:31.5917338-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\2298_20180305_status.csv init. (b941af90)
+2018-03-07T14:24:31.5917948-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\2298_20180305_status.csv init. (b941af90)
+2018-03-07T14:24:32.1051888-03:00  [ERR] 2299  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (27c39f51)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:fa5b120c-af20-430a-a656-7fe2102e7dfb
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:24:32.2205245-03:00  [ERR] 2299  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (27c39f51)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:fa5b120c-af20-430a-a656-7fe2102e7dfb
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:24:32.2545887-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:24:32.2546226-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:24:32.2598590-03:00  [INF] Processing to file: 2299_20180307_2298_20180305_status.csv finished. (6b3ebdbf)
+2018-03-07T14:24:32.2598851-03:00  [INF] Processing to file: 2299_20180307_2298_20180305_status.csv finished. (6b3ebdbf)
+2018-03-07T14:24:32.2612605-03:00  [INF] Process file: 2299_20180307_2298_20180305_status.csv end at: 00:00:00. (39fe57c9)
+2018-03-07T14:24:32.2612776-03:00  [INF] Process file: 2299_20180307_2298_20180305_status.csv end at: 00:00:00. (39fe57c9)
+2018-03-07T14:25:29.5089587-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:25:29.5165979-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:25:29.7806765-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:25:29.7807316-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:25:29.9227002-03:00  [ERR] 2300  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (7bb950bd)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:44043be3-5578-428d-ad87-afade1314807
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:25:29.9987113-03:00  [ERR] 2300  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (7bb950bd)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:44043be3-5578-428d-ad87-afade1314807
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:25:30.0309980-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:25:30.0310627-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:25:30.0409919-03:00  [INF] Processing to file: 2300_20180307_STATUS.csv finished. (379df01e)
+2018-03-07T14:25:30.0410254-03:00  [INF] Processing to file: 2300_20180307_STATUS.csv finished. (379df01e)
+2018-03-07T14:25:30.0437799-03:00  [INF] Process file: 2300_20180307_STATUS.csv end at: 00:00:00. (6fc59e06)
+2018-03-07T14:25:30.0438601-03:00  [INF] Process file: 2300_20180307_STATUS.csv end at: 00:00:00. (6fc59e06)
+2018-03-07T14:28:41.2715933-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:28:41.2635969-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:28:41.5235545-03:00  [INF] file(s) not found. (ddb1b8df)
+2018-03-07T14:28:41.5236220-03:00  [INF] file(s) not found. (ddb1b8df)
+2018-03-07T14:28:59.2342370-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:28:59.2262950-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:28:59.4895479-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:28:59.4896266-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:28:59.6374138-03:00  [ERR] 2301  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (cf37699a)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:569604af-4314-4b8b-9e15-9f8c35d45d63
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:28:59.7145889-03:00  [ERR] 2301  One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) (cf37699a)
+System.AggregateException: One or more errors occurred. (Invalid column name 'CPR_CAMPANHA_ID'.) ---> System.Data.SqlClient.SqlException: Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.GetIdUserByCampaing(Int32 campanhaId, Int32 userId) in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 430
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 396
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CPR_CAMPANHA_ID'.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__108_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<QueryRowAsync>d__32`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 451
+ClientConnectionId:569604af-4314-4b8b-9e15-9f8c35d45d63
+Error Number:207,State:1,Class:16<---
+
+2018-03-07T14:28:59.7464202-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:28:59.7464559-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:28:59.7543700-03:00  [INF] Processing to file: 2301_20180307_STATUS.csv finished. (b241a7bc)
+2018-03-07T14:28:59.7544014-03:00  [INF] Processing to file: 2301_20180307_STATUS.csv finished. (b241a7bc)
+2018-03-07T14:28:59.7566654-03:00  [INF] Process file: 2301_20180307_STATUS.csv end at: 00:00:00. (6e71d6b5)
+2018-03-07T14:28:59.7567092-03:00  [INF] Process file: 2301_20180307_STATUS.csv end at: 00:00:00. (6e71d6b5)
+2018-03-07T14:29:25.2291685-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:29:25.2375842-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:29:48.8381699-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:29:48.8382585-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:34:02.2800445-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:34:02.2657231-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:34:07.4242400-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:34:07.4243115-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:34:37.8655114-03:00  [ERR] 2303  Invalid column name 'DATA_CRIACAO'.
+Invalid column name 'DATA_ATUALIZACAO'. (9f7bd833)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DATA_CRIACAO'.
+Invalid column name 'DATA_ATUALIZACAO'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:067d4296-9ea0-48bc-8f57-a76407fe1dc2
+Error Number:207,State:1,Class:16
+2018-03-07T14:34:37.9513511-03:00  [ERR] 2303  Invalid column name 'DATA_CRIACAO'.
+Invalid column name 'DATA_ATUALIZACAO'. (9f7bd833)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DATA_CRIACAO'.
+Invalid column name 'DATA_ATUALIZACAO'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:067d4296-9ea0-48bc-8f57-a76407fe1dc2
+Error Number:207,State:1,Class:16
+2018-03-07T14:34:38.0260046-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:34:38.0260403-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:34:38.0321320-03:00  [INF] Processing to file: 2303_20180307_STATUS.csv finished. (b04c9b70)
+2018-03-07T14:34:38.0321662-03:00  [INF] Processing to file: 2303_20180307_STATUS.csv finished. (b04c9b70)
+2018-03-07T14:34:38.0336874-03:00  [INF] Process file: 2303_20180307_STATUS.csv end at: 00:00:30. (c749c78a)
+2018-03-07T14:34:38.0338597-03:00  [INF] Process file: 2303_20180307_STATUS.csv end at: 00:00:30. (c749c78a)
+2018-03-07T14:36:42.5324010-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:36:42.5241946-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:36:42.7935138-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:36:42.7935810-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:46:22.9978464-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:46:22.9894640-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:46:23.3894030-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:46:23.3894732-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:46:27.8494154-03:00  [ERR] 2305  Invalid column name 'TROCAR'. (a9ba2e73)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TROCAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:f4cc6df0-c1ce-428b-a33b-f196158e3ce6
+Error Number:207,State:1,Class:16
+2018-03-07T14:46:27.9296120-03:00  [ERR] 2305  Invalid column name 'TROCAR'. (a9ba2e73)
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TROCAR'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:f4cc6df0-c1ce-428b-a33b-f196158e3ce6
+Error Number:207,State:1,Class:16
+2018-03-07T14:46:27.9641272-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:46:27.9641704-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:46:27.9697141-03:00  [INF] Processing to file: 2305_20180307_STATUS.csv finished. (4ee11bd7)
+2018-03-07T14:46:27.9697424-03:00  [INF] Processing to file: 2305_20180307_STATUS.csv finished. (4ee11bd7)
+2018-03-07T14:46:27.9712916-03:00  [INF] Process file: 2305_20180307_STATUS.csv end at: 00:00:04. (0b5bff63)
+2018-03-07T14:46:27.9713321-03:00  [INF] Process file: 2305_20180307_STATUS.csv end at: 00:00:04. (0b5bff63)
+2018-03-07T14:50:37.2856765-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:50:37.2759564-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:50:37.5321748-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:50:37.5322445-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:50:37.7057160-03:00  [ERR] 2306  Cannot insert explicit value for identity column in table 'CPR_USUARIO_STATUS' when IDENTITY_INSERT is set to OFF. (fa859b4d)
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'CPR_USUARIO_STATUS' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:8ad37b28-9ee1-43f1-a969-a9b592adacc0
+Error Number:544,State:1,Class:16
+2018-03-07T14:50:37.7818898-03:00  [ERR] 2306  Cannot insert explicit value for identity column in table 'CPR_USUARIO_STATUS' when IDENTITY_INSERT is set to OFF. (fa859b4d)
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'CPR_USUARIO_STATUS' when IDENTITY_INSERT is set to OFF.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReader(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Dapper.SqlMapper.<ExecuteScalarImplAsync>d__64`1.MoveNext() in C:\projects\dapper\Dapper\SqlMapper.Async.cs:line 1185
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Repository.Repositories.UsuarioStatusRepository.<InsertAsync>d__4.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Repository\Repositories\UsuarioStatusRepository.cs:line 44
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileUserStatusService.<ProcessBulkCopyAsync>d__16.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileUserStatusService.cs:line 400
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CicloVidaAltoValor.Application.Services.FileService.<ProcessFile>d__11.MoveNext() in C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\Services\FileService.cs:line 141
+ClientConnectionId:8ad37b28-9ee1-43f1-a969-a9b592adacc0
+Error Number:544,State:1,Class:16
+2018-03-07T14:50:37.8150289-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:50:37.8150731-03:00  [INF] Finished with error. (4316d1fb)
+2018-03-07T14:50:37.8205465-03:00  [INF] Processing to file: 2306_20180307_STATUS.csv finished. (a121f6bc)
+2018-03-07T14:50:37.8205819-03:00  [INF] Processing to file: 2306_20180307_STATUS.csv finished. (a121f6bc)
+2018-03-07T14:50:37.8222024-03:00  [INF] Process file: 2306_20180307_STATUS.csv end at: 00:00:00. (458b57d3)
+2018-03-07T14:50:37.8222204-03:00  [INF] Process file: 2306_20180307_STATUS.csv end at: 00:00:00. (458b57d3)
+2018-03-07T14:54:17.0886093-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:54:17.0787143-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T14:54:17.3618164-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:54:17.3618795-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T14:54:17.5308145-03:00  [INF] 11 records imported in 00:00:00 seconds. (a433ef19)
+2018-03-07T14:54:17.5308484-03:00  [INF] 11 records imported in 00:00:00 seconds. (a433ef19)
+2018-03-07T14:54:17.5582321-03:00  [INF] File: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv id: 2307  valids: 11 - errors: 0 (9564252a)
+2018-03-07T14:54:17.5582654-03:00  [INF] File: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv id: 2307  valids: 11 - errors: 0 (9564252a)
+2018-03-07T14:54:17.5598792-03:00  [INF] Finished. (fdccd7f4)
+2018-03-07T14:54:17.5598998-03:00  [INF] Finished. (fdccd7f4)
+2018-03-07T14:54:17.5650969-03:00  [INF] Processing to file: 2307_20180307_STATUS.csv finished. (de3fa8b6)
+2018-03-07T14:54:17.5651430-03:00  [INF] Processing to file: 2307_20180307_STATUS.csv finished. (de3fa8b6)
+2018-03-07T14:54:17.5665006-03:00  [INF] Process file: 2307_20180307_STATUS.csv end at: 00:00:00. (566d7347)
+2018-03-07T14:54:17.5665426-03:00  [INF] Process file: 2307_20180307_STATUS.csv end at: 00:00:00. (566d7347)
+2018-03-07T15:05:05.5752761-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T15:05:05.5833489-03:00  [INF] Initialize.. (863d0d4a)
+2018-03-07T15:05:05.8368088-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T15:05:05.8368711-03:00  [INF] Processing to file: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv init. (85248b61)
+2018-03-07T15:05:05.9583131-03:00  [INF] 11 records imported in 00:00:00 seconds. (a433ef19)
+2018-03-07T15:05:05.9583389-03:00  [INF] 11 records imported in 00:00:00 seconds. (a433ef19)
+2018-03-07T15:05:05.9853316-03:00  [INF] File: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv id: 2308  valids: 11 - errors: 0 (54ccc9b6)
+2018-03-07T15:05:05.9853630-03:00  [INF] File: C:\CicloVidaAltoValor\PROCESSAR\STATUS.csv id: 2308  valids: 11 - errors: 0 (54ccc9b6)
+2018-03-07T15:05:05.9876326-03:00  [INF] Finished. (fdccd7f4)
+2018-03-07T15:05:05.9875897-03:00  [INF] Finished. (fdccd7f4)
+2018-03-07T15:05:05.9935660-03:00  [INF] Processing to file: 2308_20180307_STATUS.csv finished. (9978226b)
+2018-03-07T15:05:05.9936183-03:00  [INF] Processing to file: 2308_20180307_STATUS.csv finished. (9978226b)
+2018-03-07T15:05:05.9953276-03:00  [INF] Process file: 2308_20180307_STATUS.csv end at: 00:00:00. (65148de9)
+2018-03-07T15:05:05.9953575-03:00  [INF] Process file: 2308_20180307_STATUS.csv end at: 00:00:00. (65148de9)

@@ -1,0 +1,29 @@
+﻿
+@model CicloVidaAltoValor.Application.Contracts.Resgate.ResgateViewModel
+
+<div class="modal-dialog">
+    <button type="button" class="btn-fechar" data-dismiss="modal"><i class="fa fa-times"></i></button>
+    <div class="modal-content">
+        <form id="form-questao-confirma" asp-controller="Home" asp-action="Resgate" method="post" id="form-confirma" asp-antiforgery="true">
+            <div class="modal-body">
+                <p>Confirma o desejo:</p>
+                <h4>@Model.Nome ?</h4>
+                
+                <input type="hidden" asp-for="Nome" />
+                <input type="hidden" asp-for="ProdutoCampanhaId" />
+                <input type="hidden" asp-for="ProdutoId" />
+                <input type="hidden" asp-for="CampanhaProdutoId" />
+
+            </div>
+            <div class="modal-footer">
+                <ul>
+                    <li><button type="submit" data-toggle="modal" class="btn-amarelo-simples">Sim</button></li>
+                    <li><button type="button" class="btn-azul-simples" data-produto-modal="@Model.Nome" data-dismiss="modal">Não</button></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+
+@Html.Partial("_ValidationScriptsPartial")
+<script src="~/js/views/resgate/questaoconfirma.min.js"></script>

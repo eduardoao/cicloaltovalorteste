@@ -1,0 +1,49 @@
+﻿@model CicloVidaAltoValor.Application.Contracts.Home.HomeViewModel
+
+
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (var item in @Model.Produtos)
+    {
+
+
+        <div class="col-md-6 col-sm-12">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle" src="@item.UrlImagem" alt="">
+                <h4>@item.CampanhaProduto.Produto.Nome</h4>
+                <p class="text-muted">
+                    @item.CampanhaProduto.Produto.ProdutoId
+
+                    @if (!@Model.CompletouCadastro)
+                    {
+                        <a href="#cadastro" class="btn btn-default">Quero, completar meu cadastro!</a>
+                    }
+                    else if (!@Model.Campanha.DesabilitaResgate.GetValueOrDefault() && @Model.PodeResgatar)
+                    {
+                        <button type="button" class="btn btn-default btn-confirma" 
+                                data-nome="@item.CampanhaProduto.Produto.Nome" 
+                                data-produto="@item.CampanhaProduto.ProdutoId" 
+                                data-campanha-produto="@item.CampanhaProdutoId" 
+                                data-produto-campanha="@item.ProdutoCampanhaId" >
+                            Resgatar
+                        </button>
+
+                    }
+                    else
+                    {
+
+                    }
+                </p>
+            </div>
+        </div>
+
+
+    }
+</div>
+

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicloVidaAltoValor.UI", "src\CicloVidaAltoValor.UI\CicloVidaAltoValor.UI.csproj", "{752194A9-81D1-4B69-AFB7-A05F674E1130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicloVidaAltoValor.Application", "src\CicloVidaAltoValor.Application\CicloVidaAltoValor.Application.csproj", "{A23A0427-5084-4907-9A1C-0C35A9164FAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{E57FF059-8F2C-4737-AD65-6EE825F404D1}"
+	ProjectSection(SolutionItems) = preProject
+		sql\CREATE.sql = sql\CREATE.sql
+		sql\INSERT.sql = sql\INSERT.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FA96313C-F8C8-44F4-B445-EA7472E4165B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicloVidaAltoValor.Application.Test", "tests\CicloVidaAltoValor.UI.Test\CicloVidaAltoValor.Application.Test.csproj", "{3FD296B4-5458-490B-A5FE-7DD172240CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicloVidaAltoValor.Worker", "src\CicloVidaAltoValor.Worker\CicloVidaAltoValor.Worker.csproj", "{14479267-EEED-4926-BB7F-4FD3FE7217FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{752194A9-81D1-4B69-AFB7-A05F674E1130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752194A9-81D1-4B69-AFB7-A05F674E1130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752194A9-81D1-4B69-AFB7-A05F674E1130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752194A9-81D1-4B69-AFB7-A05F674E1130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23A0427-5084-4907-9A1C-0C35A9164FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23A0427-5084-4907-9A1C-0C35A9164FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23A0427-5084-4907-9A1C-0C35A9164FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23A0427-5084-4907-9A1C-0C35A9164FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD296B4-5458-490B-A5FE-7DD172240CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD296B4-5458-490B-A5FE-7DD172240CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD296B4-5458-490B-A5FE-7DD172240CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD296B4-5458-490B-A5FE-7DD172240CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14479267-EEED-4926-BB7F-4FD3FE7217FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14479267-EEED-4926-BB7F-4FD3FE7217FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14479267-EEED-4926-BB7F-4FD3FE7217FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14479267-EEED-4926-BB7F-4FD3FE7217FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FD296B4-5458-490B-A5FE-7DD172240CCB} = {FA96313C-F8C8-44F4-B445-EA7472E4165B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B042105-CD4D-41CF-9DEF-1D8F85AD2740}
+	EndGlobalSection
+EndGlobal

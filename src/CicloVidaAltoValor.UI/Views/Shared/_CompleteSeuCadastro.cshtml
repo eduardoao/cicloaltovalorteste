@@ -1,0 +1,186 @@
+﻿
+@model CicloVidaAltoValor.Application.Contracts.Usuario.UsuarioViewModel
+
+<!-- FORM -->
+<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+
+    <form id="complete-seu-cadastro" asp-action="Cadastro" asp-controller="Home" method="POST" role="form" asp-antiforgery="true">
+        <div class="form-group">
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="nome">Nome</label>
+                </div>
+
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Nome" type="text" class="form-control" id="nome" name="Nome" readonly="readonly">
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="cpf">CPF</label>
+                </div>
+
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Documento" type="text" class="form-control" id="cpf" name="Documento" readonly="readonly">
+                    <span asp-validation-for="Documento" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="data_nascimento">Data de Nascimento</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="DataNascimento" type="text" class="form-control" id="dataNascimento" name="DataNascimento" readonly="readonly">
+                    <span asp-validation-for="DataNascimento" class="text-danger"></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="">Sexo</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <div class="radio">
+                        <label class="radio-inline">
+                            <input type="radio" asp-for="Sexo" name="Sexo" value="F"> <span class="option">Feminino</span>
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="Sexo" asp-for="Sexo" value="M"> <span class="option">Masculino</span>
+                        </label>
+                    </div>
+                    <span asp-validation-for="Sexo" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="cep">CEP</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input type="text" asp-for="Cep" name="Cep" class="form-control" id="cep">
+                    <span asp-validation-for="Cep" class="text-danger"></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="endereco">Endereço</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Logradouro" type="text" class="form-control" id="endereco" name="Logradouro" readonly>
+                    <span asp-validation-for="Logradouro" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="numero">Número</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="NumeroLogradouro" type="text" class="form-control" id="numero" name="NumeroLogradouro">
+                    <span asp-validation-for="NumeroLogradouro" class="text-danger"></span>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="bairro">Bairro</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Bairro" type="text" class="form-control" id="bairro" name="Bairro" readonly>
+                    <span asp-validation-for="Bairro" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="cidade">Cidade</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Cidade" type="text" class="form-control" id="cidade" name="Cidade" readonly>
+                    <span asp-validation-for="Cidade" class="text-danger"></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="estado">Estado</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Estado" type="text" class="form-control" id="estado" name="Estado" readonly>
+                    <span asp-validation-for="Estado" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="complemento">Complemento</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Complemento" type="text" class="form-control" id="complemento" name="Complemento" maxlength="100">
+                    <span asp-validation-for="Complemento" class="text-danger"></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="celular">Telefone Celular</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="TelefoneCelular" type="tel" class="form-control" id="celular" name="TelefoneCelular">
+                    <span asp-validation-for="TelefoneCelular" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="telComercial">Telefone Comercial</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="TelefoneComercial" type="tel" class="form-control" id="telComercial" name="TelefoneComercial">
+                    <span asp-validation-for="TelefoneComercial" class="text-danger"></span>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="telResidencial">Telefone Residencial</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="TelefoneResidencial" type="tel" class="form-control" id="telResidencial" name="TelefoneResidencial">
+                    <span asp-validation-for="TelefoneResidencial" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                    <input asp-for="Email" type="email" class="form-control" id="Email" name="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn_send ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                <button type="submit" class="btn btn-default btn-amarelo-simples">Confirmar</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="modal fade" id="modal-id-sucesso">
+        <div class="modal-dialog">
+            <button type="button" class="btn-fechar" data-dismiss="modal"><i class="fa fa-times"></i></button>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h5>Parabéns!</h5>
+                    <p>Seu cadastro foi concluído com sucesso.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-azul-simples" data-dismiss="modal">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- FIM FORM -->

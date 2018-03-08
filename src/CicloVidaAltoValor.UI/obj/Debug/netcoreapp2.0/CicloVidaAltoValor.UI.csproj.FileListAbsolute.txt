@@ -1,0 +1,15 @@
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\web.config
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.deps.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.runtimeconfig.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.runtimeconfig.dev.json
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.csprojResolveAssemblyReference.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.AssemblyInfoInputs.cache
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.AssemblyInfo.cs
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.dll
+C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.UI\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.UI.pdb

@@ -1,0 +1,83 @@
+﻿
+@model dynamic
+
+@{
+    ViewData["Title"] = "Página não encontrada.";
+    ViewBag.BodyClass = @"regulamento";
+
+}
+
+
+
+@if (User.Identity.IsAuthenticated)
+{
+
+
+    <section id="feature" class="ms-animation" data-ms-animation="fadeIn" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+        <div class="padrao">
+            <div class="mob_adapt">
+                <section class="col-xs-8 col-sm-5 col-md-5 col-lg-5 ">
+
+                    <div class="intro ms-animation" data-ms-animation="fadeInUp" data-ms-animation-delay="0.5s" data-ms-animation-duration="1.5s">
+                        <h1>Página não encontrada.</h1>                     
+
+                        <p>Não foi possível encontrar a página: @ViewBag.RequestedUrl</p>
+                        @if (ViewBag.ReferrerUrl != null)
+                        {
+                            <p>
+                                Voltar à página <a href='javascript:history.go(-1)'> anterior</a>.
+                            </p>
+                        }
+
+
+                    </div>
+
+                </section>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    
+
+}
+else
+{
+
+    <div id="content_site">
+        <header>
+            <section id="promotion">
+                <div class="padrao">
+                    
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <br /><br /><br />
+                        <div class="campos ms-animation" data-ms-animation="flipInUp" data-ms-animation-delay="1.5s" data-ms-animation-duration="1.5s">
+                            <h1>Página não encontrada.</h1>
+                            <h4>Não foi possível encontrar a página: @ViewBag.RequestedUrl</h4>
+                            @if (ViewBag.ReferrerUrl != null)
+                            {
+                                <h4>
+                                    Voltar à página <a href='javascript:history.go(-1)'> anterior</a>.
+                                </h4>
+                            }
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </header>
+
+        <section id="content">
+            <div class="padrao">
+
+            </div>
+        </section>
+    </div>
+
+
+
+}
