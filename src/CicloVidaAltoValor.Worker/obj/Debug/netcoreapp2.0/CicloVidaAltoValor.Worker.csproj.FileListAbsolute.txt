@@ -12,3 +12,17 @@ C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\Cicl
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.AssemblyInfo.cs
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.dll
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.pdb
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\appsettings.json
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.deps.json
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.runtimeconfig.json
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.runtimeconfig.dev.json
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.dll
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.pdb
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+D:\MVC\src\CicloVidaAltoValor.Worker\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.csprojResolveAssemblyReference.cache
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.csproj.CoreCompileInputs.cache
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.AssemblyInfoInputs.cache
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.AssemblyInfo.cs
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.dll
+D:\MVC\src\CicloVidaAltoValor.Worker\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Worker.pdb

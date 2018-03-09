@@ -26,8 +26,7 @@ namespace CicloVidaAltoValor.UI.Controllers
 
         public override Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
-            ViewBag.Profile = GetProfile();
-            //ViewBag.CanMakeWish = CanMakeWish();
+            ViewBag.Profile = GetProfile();           
             return base.OnActionExecutionAsync(context, next);
         }
 

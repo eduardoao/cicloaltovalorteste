@@ -9,3 +9,14 @@ C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\Cicl
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.AssemblyInfo.cs
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
 C:\Users\eduardo.oliveira\source\repos\cdvb-ciclo-vida-altovalor-pascoa\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+D:\MVC\src\CicloVidaAltoValor.Application\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.deps.json
+D:\MVC\src\CicloVidaAltoValor.Application\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+D:\MVC\src\CicloVidaAltoValor.Application\bin\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.csprojResolveAssemblyReference.cache
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.Properties.Resources.resources
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.csproj.GenerateResource.Cache
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.csproj.CoreCompileInputs.cache
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.AssemblyInfoInputs.cache
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.AssemblyInfo.cs
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.dll
+D:\MVC\src\CicloVidaAltoValor.Application\obj\Debug\netcoreapp2.0\CicloVidaAltoValor.Application.pdb
